@@ -1,2 +1,2 @@
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=CodeSyedX)](https://git.io/streak-stats)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=CodeSyedX&show_icons=true)
