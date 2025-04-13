@@ -10,8 +10,7 @@
 ### 🧑‍💻 About Me:
 
 🎓 I'm a passionate developer with a strong foundation in both **Artificial Intelligence / Machine Learning** and **Full-Stack Web Development**.  
-🔍 I love turning real-world problems into intelligent solutions using code.  
-🌱 Currently working on a **Fake News Detection System** using AI, Flask, and Google Fact Check API.  
+🔍 I love turning real-world problems into intelligent solutions using code.   
 🛠️ Constantly exploring new technologies to push my limits — recently diving into **Next.js** and **GSAP** for powerful frontend interactions.  
 💡 I believe in writing clean, scalable, and efficient code that makes an impact.
 
