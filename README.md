@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Syed Aafreen</h1>
+<h1 align="center"> I'm Syed Aafreen</h1>
 <h3 align="center">🚀 AI/ML Developer | 💻 Full-Stack Web Developer | 🧠 Lifelong Learner</h3>
 
 <p align="left"> 
