@@ -30,33 +30,33 @@
     </g>
     <g class="line" style="animation-delay: 0.2s;">
       <text x="0" y="55" class="key">Role:</text>
-      <text x="110" y="55" class="val">AI &amp; Deep Learning Engineer</text>
+      <text x="110" y="55" class="val">AI Developer &amp; Agent Systems Engineer</text>
     </g>
     <g class="line" style="animation-delay: 0.3s;">
       <text x="0" y="85" class="key">Education:</text>
-      <text x="110" y="85" class="val">B.Tech CSE (AI Specialization) @ VIT</text>
+      <text x="110" y="85" class="val">B.Tech CSE @ VIT Bhopal (CGPA: 8.72)</text>
     </g>
     <g class="line" style="animation-delay: 0.4s;">
       <text x="0" y="115" class="key">Core Stack:</text>
-      <text x="110" y="115" class="val">PyTorch, OpenCV, CNNs, GANs, RDKit</text>
+      <text x="110" y="115" class="val">Python, LangGraph, CrewAI, PyTorch, RAG</text>
     </g>
     <g class="line" style="animation-delay: 0.5s;">
       <text x="0" y="145" class="key">Focus Areas:</text>
-      <text x="110" y="145" class="val">Computer Vision, Chemoinformatics</text>
+      <text x="110" y="145" class="val">Multi-Agent AI, LLM Orchestration, CV</text>
     </g>
     <g class="line" style="animation-delay: 0.6s;">
       <text x="0" y="175" class="key">Highlights:</text>
-      <text x="110" y="175" class="val" fill="#39d353">• PlantGuard AI (Diagnostic Engine)</text>
+      <text x="110" y="175" class="val" fill="#39d353">• Cyber-Matrix (LangGraph Research Engine)</text>
     </g>
     <g class="line" style="animation-delay: 0.7s;">
-      <text x="110" y="200" class="val">• Fraud Detection on Imbalanced Data</text>
+      <text x="110" y="200" class="val">• MedWaste Guardian (CrewAI Compliance System)</text>
     </g>
     <g class="line" style="animation-delay: 0.8s;">
-      <text x="110" y="225" class="val">• Molecular Efficacy Pipeline (Lipinski)</text>
+      <text x="110" y="225" class="val">• 1300+ Codeforces | Top 10 IIT Kanpur ML Hackathon</text>
     </g>
     <g class="line" style="animation-delay: 0.9s;">
       <text x="0" y="265" class="key">Status:</text>
-      <text x="110" y="265" class="val accent">Building production deep learning models</text>
+      <text x="110" y="265" class="val accent">500+ DSA Solved • Building Autonomous AI Agents</text>
     </g>
   </g>
 </svg>
