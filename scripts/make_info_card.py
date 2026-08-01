@@ -1,0 +1,70 @@
+def create_info_card(output_path="info-card.svg"):
+    svg_content = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 380" width="490" height="380">
+  <style>
+    .bg { fill: #0d1117; stroke: #30363d; stroke-width: 1px; rx: 6px; }
+    .title-bar { fill: #161b22; }
+    .dot-red { fill: #ff5f56; }
+    .dot-yellow { fill: #ffbd2e; }
+    .dot-green { fill: #27c93f; }
+    .text-title { font-family: monospace; font-size: 12px; fill: #8b949e; }
+    .key { font-family: monospace; font-size: 13px; font-weight: bold; fill: #58a6ff; }
+    .val { font-family: monospace; font-size: 13px; fill: #c9d1d9; }
+    .accent { fill: #39d353; font-weight: bold; }
+    
+    .line { opacity: 0; transform: translateY(5px); animation: fadeIn 0.4s ease-out forwards; }
+    @keyframes fadeIn {
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+
+  <rect width="490" height="380" class="bg" />
+  <path d="M 0 6 A 6 6 0 0 1 6 0 L 484 0 A 6 6 0 0 1 490 6 L 490 30 L 0 30 Z" class="title-bar" />
+  <circle cx="20" cy="15" r="5" class="dot-red" />
+  <circle cx="35" cy="15" r="5" class="dot-yellow" />
+  <circle cx="50" cy="15" r="5" class="dot-green" />
+  <text x="70" y="19" class="text-title">syed@codesyedx ~ $ whoami</text>
+
+  <g transform="translate(25, 40)">
+    <g class="line" style="animation-delay: 0.1s;">
+      <text x="0" y="25" class="key">User:</text>
+      <text x="110" y="25" class="val">Syed Aafreen</text>
+    </g>
+    <g class="line" style="animation-delay: 0.2s;">
+      <text x="0" y="55" class="key">Role:</text>
+      <text x="110" y="55" class="val">AI Developer &amp; Agent Systems Engineer</text>
+    </g>
+    <g class="line" style="animation-delay: 0.3s;">
+      <text x="0" y="85" class="key">Education:</text>
+      <text x="110" y="85" class="val">B.Tech CSE @ VIT Bhopal (CGPA: 8.72)</text>
+    </g>
+    <g class="line" style="animation-delay: 0.4s;">
+      <text x="0" y="115" class="key">Core Stack:</text>
+      <text x="110" y="115" class="val">Python, LangGraph, CrewAI, PyTorch, RAG</text>
+    </g>
+    <g class="line" style="animation-delay: 0.5s;">
+      <text x="0" y="145" class="key">Focus Areas:</text>
+      <text x="110" y="145" class="val">Multi-Agent AI, LLM Orchestration, CV</text>
+    </g>
+    <g class="line" style="animation-delay: 0.6s;">
+      <text x="0" y="175" class="key">Highlights:</text>
+      <text x="110" y="175" class="val" fill="#39d353">• Cyber-Matrix (LangGraph Research Engine)</text>
+    </g>
+    <g class="line" style="animation-delay: 0.7s;">
+      <text x="110" y="200" class="val">• MedWaste Guardian (CrewAI Compliance System)</text>
+    </g>
+    <g class="line" style="animation-delay: 0.8s;">
+      <text x="110" y="225" class="val">• 1300+ Codeforces | Top 10 IIT Kanpur ML Hackathon</text>
+    </g>
+    <g class="line" style="animation-delay: 0.9s;">
+      <text x="0" y="265" class="key">Status:</text>
+      <text x="110" y="265" class="val accent">500+ DSA Solved • Building Autonomous AI Agents</text>
+    </g>
+  </g>
+</svg>"""
+    
+    with open(output_path, 'w', encoding='utf-8') as f:
+        f.write(svg_content)
+    print(f"Info card SVG saved to {output_path}")
+
+if __name__ == "__main__":
+    create_info_card()
