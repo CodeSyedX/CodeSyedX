@@ -1,10 +1,4 @@
 <div align="center">
-
-
-
-<br><br>
-
-<h3><code>codesyedx@github ~ $ whoami</code></h3>
 <table>
   <tr>
     <td valign="top"><img src="./avi-ascii.svg" width="370" /></td>
